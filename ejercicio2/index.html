@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h2>Inserta un empleado:</h2>
+        <input placeholder="Nombre"></input>
+        <input placeholder="Apellido"></input>
+        <button onclick="insertarEmpleado();">Insertar</button>
+    </div>
+    <div>
+        <h2>Edita el nombre o el apellido de un empleado:</h2>
+        <h3>Introduce el nombre y el apellido del empleado a editar:</h3>
+        <input placeholder="Nombre"></input>
+        <input placeholder="Apellido"></input>
+        <h3>Introduce el nuevo nombre o el nuevo apellido: <br>(rellena solamente los campos que quieras modificar)</h3>
+        <input placeholder="Nuevo nombre"></input>
+        <input placeholder="Nuevo apellido"></input>
+        <button onclick="editarEmpleado();">Enviar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
